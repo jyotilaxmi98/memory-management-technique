@@ -1,26 +1,30 @@
 # memory-management-technique
 <p> The program performs a comparative study between a paging system and a non-paging system. It also analyzes the performance of the paging system based on various parameters such as page-replacement algorithms (LRU, FIFO, Random), swap-space size, and page size. The program is divided into three submodules:
 
-Data Generator
-Non-Paging System
-Paging System
-Submodules
-Data Generator
+1.Data Generator <br>
+2.Non-Paging System <br>
+3.Paging System <br>
 
-Simulates data generation for testing memory allocation.
-Produces a sequence of memory access requests and job sizes to simulate real-world scenarios.
-Non-Paging System
+<b>Submodules</b> <br>
 
-Implements contiguous allocation using the First Fit algorithm.
-First Fit Algorithm:
-Searches for the first available memory block large enough to accommodate the job.
-Allocates memory contiguously, which can lead to fragmentation.
-Objective: To analyze how efficiently memory is utilized and the system's performance with varying job sizes and memory demands.
-Paging System
+1.Data Generator
 
-Implements memory allocation using paging, dividing memory into fixed-sized pages.
-Page-Replacement Algorithms:
-LRU (Least Recently Used): Replaces the page that has not been used for the longest period.
+<li>Simulates data generation for testing memory allocation.</li>
+<li>Produces a sequence of memory access requests and job sizes to simulate real-world scenarios.<br>
+  
+2.Non-Paging System</li>
+
+<li>Implements contiguous allocation using the First Fit algorithm.</li>
+<li>First Fit Algorithm:</li>
+  <li>Searches for the first available memory block large enough to accommodate the job.</li>
+  <li>Allocates memory contiguously, which can lead to fragmentation.</li>
+<li>Objective: To analyze how efficiently memory is utilized and the system's performance with varying job sizes and memory demands.<br>
+  
+3.Paging System
+
+<li>Implements memory allocation using paging, dividing memory into fixed-sized pages.</li>
+<li>Page-Replacement Algorithms:</li>
+<li>LRU (Least Recently Used): Replaces the page that has not been used for the longest period.</li>
 FIFO (First-In-First-Out): Replaces the oldest page in memory.
 Random: Replaces a randomly chosen page.
 Parameters Analyzed:
