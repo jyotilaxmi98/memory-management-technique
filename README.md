@@ -25,16 +25,18 @@
 <li>Implements memory allocation using paging, dividing memory into fixed-sized pages.</li>
 <li>Page-Replacement Algorithms:</li>
 <li>LRU (Least Recently Used): Replaces the page that has not been used for the longest period.</li>
-FIFO (First-In-First-Out): Replaces the oldest page in memory.
-Random: Replaces a randomly chosen page.
+<li>FIFO (First-In-First-Out): Replaces the oldest page in memory.</li>
+<li>Random: Replaces a randomly chosen page.</li> <br>
+                                                    
 Parameters Analyzed:
-Page-Replacement Algorithms: Evaluates the impact of different algorithms on system performance.
-Swap-Space Size: Analyzes how varying the swap-space size affects performance.
-Page Size: Investigates the effect of different page sizes on memory management efficiency.
+<li>Page-Replacement Algorithms: Evaluates the impact of different algorithms on system performance.</li>
+<li>Swap-Space Size: Analyzes how varying the swap-space size affects performance.</li>
+<li>Page Size: Investigates the effect of different page sizes on memory management efficiency.</li> <br>
+
 Comparative Analysis
-Memory Utilization: Comparison of how efficiently memory is used in both systems.
-Performance Metrics: Evaluates metrics such as execution time, page faults, and fragmentation.
-Impact of Parameters: Assesses how the page-replacement algorithm, swap-space size, and page size influence the performance of the paging system.
+<li>Memory Utilization: Comparison of how efficiently memory is used in both systems.</li>
+<li>Performance Metrics: Evaluates metrics such as execution time, page faults, and fragmentation.</li>
+<li>Impact of Parameters: Assesses how the page-replacement algorithm, swap-space size, and page size influence the performance of the paging system.</li>
 This structured approach allows a comprehensive comparison of the two memory management techniques and provides insights into optimizing the paging system's performance.
 
 
